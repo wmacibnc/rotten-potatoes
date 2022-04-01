@@ -44,6 +44,6 @@ jobs:
         with: 
           images: wmacibnc/rotten-potatoes/${{github.run_number}}
           manifests: |
-            k8s/deployment.yml
+            k8s/deployment.yaml
           
             
